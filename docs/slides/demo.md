@@ -18,6 +18,19 @@
 <span class="badge bg-light text-dark mr-1 ml-2">esc</span>overview</p>
 
 ---
+<!-- .slide: data-state="layout-mostly-image" data-width="300" data-height="300" data-background-image="images/Adil Shehzad.png" -->
+
+# About Me
+
+</small>
+
+- GitHub Campus Expert  <a class="btn btn-success btn-lg text-white fab fa-github-alt" href="https://github.com/planetoftheweb"> </a>
+- GitHub Streamer at GitHub <a class="btn btn-success btn-lg text-white fab fa-github-alt" href="https://github.com/planetoftheweb"> </a>
+- Responsive fonts
+
+<a class="btn btn-danger btn-lg text-white fab fa fa-tree" href="https://codepen.io/planetoftheweb/pen/oJOwYb"></a> <a class="btn btn-primary btn-lg text-white fab fa-linkedin-in" href="https://www.linkedin.com/learning/instructors/ray-villalobos"></a> <a class="btn btn-success btn-lg text-white fab fa-github-alt" href="https://github.com/planetoftheweb"></a>
+
+---
 
 <!-- .slide: data-state="layout-title" data-transition="zoom" class="bg-dark"-->
 
