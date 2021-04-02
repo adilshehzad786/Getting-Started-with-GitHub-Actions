@@ -8,8 +8,8 @@
 
 <p>Learn how to automate, customize, and execute your software development workflows right in your GitHub repository with GitHub Actions.</p>
 <p class="no-fragment btn-group" role="group" aria-label="Basic example">
-<a class="btn btn-lg btn-warning text-dark" href="https://github.com/planetoftheweb/rayveal">Github Repo</a>
-<a class="btn btn-lg btn-light text-dark" href="https://rayveal.tech">Demo</a>
+<a class="btn btn-lg btn-warning text-dark" href="https://github.com/adilshehzad786/Getting-Started-with-GitHub-Actions" target="_blank">Github Repo</a>
+<a class="btn btn-lg btn-light text-dark" href="#" target="_blank">Demo</a>
 </p>
 
 <p class="no-fragment small mt-4"><span class="badge bg-light text-dark mr-1 ml-2">&larr; &rarr;</span> navigate
@@ -21,14 +21,41 @@
 
 <!-- .slide: data-state="layout-title" data-transition="zoom" class="bg-dark"-->
 
-# Unique Features
+# What are GitHub Actions ?
+
+<p>Automate, customize, and execute your software development 
+workflows right in your repository with GitHub Actions. 
+You can discover, create, and share actions to perform any job you'd like,
+including CI/CD, and combine actions in a completely customized workflow. </p>
 
 ---
 
-# 100% Markdown
+# Understanding the GitHub flow
 
-- Assumes you use markdown to create slides. The `index.html` file points to a markdown file in `docs/slides/demo.md`.
-- It does whatever [reveal.js](https://github.com/hakimel/reveal.js) can.
+<br>
+
+GitHub flow is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly.
+[GitHub flow Graph](https://guides.github.com/introduction/flow/)
+
+<!-- .element class="fragment" style="font-size: .8em" -->
+
+<ul class="list-group mt-3">
+  <li class="list-group-item fragment fade-right">
+  <i class="twa twa-raising-hands"></i> Create a branch </li>
+  <li class="list-group-item fragment fade-right">
+  <i class="twa twa-raising-hands"></i> Open a Pull Request</li>
+  <li class="list-group-item fragment fade-right">
+  <i class="twa twa-raising-hands"></i> Deploy </li>
+  <li class="list-group-item fragment fade-right">
+    <i class="twa twa-raising-hands"></i> Merge
+  </li>
+  
+  
+</ul>
+
+---
+
+# Demo : Understanding the GitHub flow
 
 ---
 
