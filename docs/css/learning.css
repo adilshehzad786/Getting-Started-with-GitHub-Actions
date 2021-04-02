@@ -1,0 +1,849 @@
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+
+.reveal {
+  font-family: 'Source Sans Pro', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  font-size: 1.8em;
+  line-height: 1.2em;
+  font-weight: 200;
+  color: var(--bs-black);
+  letter-spacing: 0.03em;
+}
+
+.reveal * {
+  margin-bottom: 0;
+}
+
+::selection {
+  background-color: var(--bs-warning);
+  text-shadow: none;
+}
+
+.reveal .slides {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reveal .slides > section,
+.reveal .slides > section > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: inherit;
+}
+
+.reveal .slides [contenteditable]:focus {
+  outline: none;
+}
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0;
+  padding: 0;
+  text-transform: inherit;
+  text-shadow: none;
+  word-wrap: break-word;
+}
+
+.reveal section > h1 {
+  font-weight: 700;
+  font-size: 2em;
+  color: var(--bs-black);
+}
+
+.reveal section > h2 {
+  font-weight: 500;
+  font-size: 1.7em;
+  color: var(--bs-gray);
+}
+
+.reveal section > h3 {
+  font-size: 1.5em;
+  color: var(--bs-warning);
+}
+
+h3::selection {
+  color: var(--bs-light);
+}
+.reveal section > h4 {
+  font-size: 1.25em;
+  color: var(--bs-royal);
+}
+
+.reveal section > h5 {
+  font-size: 1em;
+  color: var(--bs-exciting);
+}
+
+.reveal section > h6 {
+  font-size: 0.85em;
+  color: var(--bs-primary);
+}
+
+/*********************************************
+ * Typography
+ *********************************************/
+
+.reveal strong,
+.reveal b {
+  color: var(--bs-secondary);
+  font-weight: 600;
+}
+
+.reveal q,
+.reveal blockquote {
+  quotes: none;
+}
+
+.reveal sup {
+  vertical-align: super;
+}
+
+.reveal sub {
+  vertical-align: sub;
+}
+
+.reveal small {
+  display: inline-block;
+  font-size: 0.8em;
+}
+
+/*********************************************
+ * Paragraphs
+ *********************************************/
+
+.reveal p {
+  font-size: 0.8em;
+  line-height: 120%;
+  margin-bottom: 0;
+  margin: auto 3em;
+  margin-top: 1em;
+}
+
+.reveal h1 + p,
+.reveal h2 + p {
+  margin-top: 0.5em;
+}
+
+.reveal p > em {
+  font-size: 0.7em;
+  padding: 0 !important;
+}
+
+.reveal p small {
+  line-height: 120%;
+}
+/*********************************************
+ * Headlines
+ *********************************************/
+.reveal h1,
+.reveal h1 + h2,
+.reveal h1 + h3 {
+  margin-top: 0.2em;
+  line-height: 90%;
+}
+
+/*********************************************
+ * Lists
+ *********************************************/
+
+.reveal ol,
+.reveal dl,
+.reveal ul {
+  text-align: left;
+  margin: 0;
+}
+
+.reveal ul {
+  margin: 0;
+  list-style-type: disc;
+  font-size: 0.8em;
+}
+
+.reveal ul + p,
+.reveal ol + p {
+  margin-top: 0 !important;
+}
+
+.reveal ul li,
+.reveal ol li {
+  margin: 0.5em 3em;
+}
+
+.reveal ul li ul li,
+.reveal ol li ul li {
+  line-height: 100%;
+  font-size: 0.7em;
+  margin-bottom: 20px !important;
+  margin-left: -30px !important;
+  list-style-type: none;
+  white-space: nowrap !important;
+}
+
+.reveal ul li:first-child,
+.reveal ol li:first-child {
+  margin-top: 1.25em;
+}
+
+/*********************************************
+ * Tables
+ *********************************************/
+.reveal table {
+  border-collapse: collapse;
+  margin: 0;
+  margin-top: 0.5em;
+}
+
+.reveal table th {
+  vertical-align: middle;
+  font-weight: 600;
+  color: var(--bs-light);
+  background: var(--bs-info);
+  line-height: 90%;
+}
+
+.reveal table th,
+.reveal table td {
+  padding: 0.4em;
+  border: 1px solid var(--bs-gray-light);
+  text-align: center;
+}
+
+.reveal table th {
+  border: 1px solid var(--bs-light);
+  border-top: 1px solid var(--bs-gray);
+  border-bottom: 1px solid var(--bs-gray);
+}
+
+.reveal table th:first-child {
+  border-left: 1px solid var(--bs-gray);
+  border-top: 1px solid var(--bs-gray);
+  border-bottom: 1px solid var(--bs-gray);
+}
+
+.reveal table th:last-child {
+  border-right: 1px solid var(--bs-gray);
+  border-top: 1px solid var(--bs-gray);
+  border-bottom: 1px solid var(--bs-gray);
+}
+
+.reveal table th[align='center'],
+.reveal table td[align='center'] {
+  text-align: center;
+}
+
+.reveal table th[align='right'],
+.reveal table td[align='right'] {
+  text-align: right;
+}
+
+.reveal table td:first-child {
+  text-align: left;
+  padding-left: 0.8em;
+}
+
+.reveal table td {
+  font-size: 1.6rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*********************************************
+ * Other Elements
+ *********************************************/
+
+.reveal img,
+.reveal video {
+  max-width: 100%;
+}
+
+/*********************************************
+ * Code
+ *********************************************/
+
+.reveal pre {
+  position: relative;
+  margin-top: 1em;
+  overflow: hidden;
+}
+
+.reveal p code,
+.reveal li code {
+  background: var(--bs-gray);
+  color: var(--bs-light);
+}
+
+.reveal pre > code {
+  background: var(--bs-beige);
+  font-family: monospace;
+  font-size: 1.2rem;
+  text-align: left;
+  white-space: pre;
+  line-height: 120%;
+  padding: 1em;
+  color: inherit;
+  max-width: 100%;
+}
+
+.reveal code table td {
+  font-size: 1.2rem;
+  text-align: left;
+  padding-left: 0 !important;
+}
+
+/*********************************************
+ * LINKS
+ *********************************************/
+.reveal a {
+  color: var(--bs-info);
+}
+
+.reveal a:hover {
+  text-decoration: underline;
+  text-shadow: none;
+}
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section > img {
+  margin: 15px 0px;
+}
+
+.reveal section img.plain {
+  border: 0;
+  box-shadow: none;
+}
+
+/*********************************************
+* Code Colors
+*********************************************/
+
+.reveal code {
+  font-family: monospace;
+  margin: 1px;
+  padding: 0 0.5em;
+  display: inline-block;
+  white-space: nowrap;
+  cursor: text;
+  border-radius: 5px;
+  background: var(--bs-gray);
+  color: var(--bs-light);
+}
+
+.reveal .code-primary {
+  background: var(--bs-primary) !important;
+  margin: 5px;
+  color: var(--bs-light) !important;
+}
+
+.reveal .code-success {
+  background-color: var(--bs-success) !important;
+  margin: 5px;
+  color: var(--bs-light) !important;
+}
+
+.reveal .code-info {
+  background-color: var(--bs-info) !important;
+  margin: 5px;
+  color: var(--bs-light) !important;
+}
+
+.reveal .code-warning {
+  background-color: var(--bs-warning) !important;
+  margin: 5px;
+  color: var(--bs-dark) !important;
+}
+
+.reveal .code-danger {
+  background-color: var(--bs-danger) !important;
+  margin: 5px;
+  color: var(--bs-light) !important;
+}
+
+.reveal .code-royal {
+  background-color: var(--bs-royal) !important;
+  margin: 5px;
+  color: var(--bs-light) !important;
+}
+
+.reveal .code-exciting {
+  background-color: var(--bs-exciting) !important;
+  margin: 5px;
+  color: var(--bs-light) !important;
+}
+
+/*********************************************
+ * Title Slide
+ *********************************************/
+.reveal-viewport.layout-title {
+  background: linear-gradient(to right, var(--bs-primary), var(--bs-info));
+}
+
+.reveal-viewport.layout-title .slides {
+  color: var(--bs-light);
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.reveal-viewport.layout-title .slides h1,
+.reveal-viewport.layout-title .slides h2,
+.reveal-viewport.layout-title .slides h3,
+.reveal-viewport.layout-title .slides h4,
+.reveal-viewport.layout-title .slides h5,
+.reveal-viewport.layout-title .slides h6 {
+  margin-top: 0;
+}
+
+.reveal-viewport.layout-title .slides h1 {
+  font-size: 2.2em;
+  color: var(--bs-yellow);
+}
+
+.reveal-viewport.layout-title .slides h2 {
+  font-size: 1.6em;
+  line-height: 100%;
+  color: var(--bs-dark);
+  filter: contrast(0.9);
+}
+
+.reveal-viewport.layout-title .slides p {
+  font-size: 0.9em;
+}
+
+.reveal-viewport.layout-title .slides .small {
+  font-weight: 100;
+  font-size: 0.5em;
+}
+
+.reveal-viewport.layout-title section {
+  background-color: transparent !important;
+}
+
+/*********************************************
+ * Background Image
+ *********************************************/
+
+.reveal-viewport.layout-background-image .slides {
+  height: 100%;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.reveal-viewport.layout-background-image .slides {
+  letter-spacing: 0.03em;
+  color: var(--bs-light);
+  text-align: center;
+}
+
+.reveal-viewport.layout-background-image h1,
+.reveal-viewport.layout-background-image h2,
+.reveal-viewport.layout-background-image h3,
+.reveal-viewport.layout-background-image h4,
+.reveal-viewport.layout-background-image h5,
+.reveal-viewport.layout-background-image h6 {
+  color: inherit;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-shadow: 0px 0px 10px black;
+}
+
+.reveal-viewport.layout-background-image p {
+  text-shadow: 0px 0px 5px black;
+}
+
+.reveal-viewport.layout-background-image p small {
+  font-size: 0.7em !important;
+}
+
+.reveal-viewport.layout-background-image a {
+  color: var(--bs-light);
+}
+
+/*********************************************
+ * Mostly Image
+ *********************************************/
+
+.reveal-viewport.layout-mostly-image {
+  background-color: var(--bs-dark);
+}
+
+.reveal-viewport.layout-mostly-image .slides {
+  width: 100% !important;
+  left: 0 !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  transform: none !important;
+}
+
+.reveal-viewport.layout-mostly-image .slide-background-content {
+  width: 60% !important;
+  animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 0.5s; /* don't forget to set a duration! */
+}
+
+.reveal-viewport.layout-mostly-image section {
+  animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 0.5s; /* don't forget to set a duration! */
+  align-self: flex-end !important;
+  width: 40% !important;
+  color: var(--bs-gray-light);
+}
+
+/* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width]))); */
+
+.reveal-viewport.layout-mostly-image h1 {
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  font-size: calc(20px + (50 - 20) * ((100vw - 300px) / (1152 - 300)));
+}
+
+.reveal-viewport.layout-mostly-image p {
+  margin-top: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  line-height: 120%;
+  font-size: calc(10px + (30 - 10) * ((100vw - 300px) / (1152 - 300)));
+}
+
+.reveal-viewport.layout-mostly-image small {
+  font-size: calc(8px + (15 - 8) * ((100vw - 300px) / (1152 - 300)));
+}
+
+.reveal-viewport.layout-mostly-image section li {
+  color: var(--bs-gray-lighter);
+  margin-left: 0;
+  margin-right: 0;
+  line-height: 110%;
+  font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1152 - 300)));
+}
+
+.reveal-viewport.layout-mostly-image ul li:first-child,
+.reveal-viewport.layout-mostly-image ul li:first-child {
+  margin-top: 0.8em;
+}
+
+/*********************************************
+ * Background Video
+ *********************************************/
+
+.reveal-viewport.layout-background-video {
+  color: var(--bs-light);
+}
+
+/*********************************************
+ * Quotes
+ *********************************************/
+.reveal-viewport.layout-quote {
+  background: transparent;
+}
+
+.reveal-viewport.layout-quote .slides {
+  color: var(--bs-light);
+}
+
+.reveal-viewport.layout-quote blockquote {
+  color: var(--bs-light) !important;
+  font-size: 2.5em;
+  line-height: 110%;
+}
+.reveal-viewport.layout-quote blockquote footer {
+  color: var(--bs-light);
+  font-size: 0.3em;
+}
+
+.reveal-viewport.layout-quote section {
+  background-color: transparent !important;
+}
+
+/*********************************************
+ * Persistent Footer
+ *********************************************/
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translate(0, 200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0, 200px);
+  }
+}
+
+.footer {
+  font-size: calc(9px + (15 - 9) * ((100vw - 300px) / (1152 - 300)));
+  background: var(--bs-dark);
+  color: var(--bs-white);
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 500;
+  padding: 10px 0 !important;
+  line-height: 100%;
+}
+
+.footer a {
+  color: var(--bs-light);
+  padding: 0.1em;
+}
+
+.footer a:hover {
+  color: var(--bs-warning);
+  text-decoration: underline;
+}
+
+footer.fadein {
+  opacity: 1;
+  animation-name: fadein;
+  animation-timing-function: ease-out;
+  animation-duration: 0.5s;
+}
+
+footer.fadeout {
+  opacity: 0;
+  animation-name: fadeout;
+  animation-timing-function: ease-out;
+  animation-duration: 1s;
+  transform: translate(0, 200px);
+}
+
+/*********************************************
+ * Tooltips
+ *********************************************/
+
+.reveal .tooltip span {
+  background: #444;
+  bottom: 100%;
+  display: block;
+  font-size: 0.7em;
+  left: -20px;
+  opacity: 0;
+  padding: 2px 10px;
+  margin-bottom: 5px;
+  pointer-events: none;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: none;
+  border: 2px solid white;
+  transform: translateY(25px);
+  transition: all 0.25s ease-out;
+  white-space: nowrap;
+  transform: translateY(0px);
+}
+
+.reveal .tooltip:hover span {
+  display: inline-block;
+  opacity: 1;
+}
+
+.reveal a.tooltip span {
+  color: var(--bs-light) !important;
+}
+
+.reveal a code {
+  cursor: pointer !important;
+}
+
+/*********************************************
+ * LAYOUTS
+ *********************************************/
+
+/*********************************************
+ * Has Icon
+ *********************************************/
+
+.layout-has-icon .slides h1 {
+  position: relative;
+  padding-left: 2em;
+}
+
+.layout-has-icon .slides h1 > i {
+  position: absolute;
+  margin-left: -1em;
+  top: -0.22em;
+  font-size: 1.8em;
+  color: var(--bs-danger);
+  vertical-align: middle;
+}
+
+/*********************************************
+ * Circles
+ *********************************************/
+
+.reveal-viewport.layout-circles ul {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.reveal-viewport.layout-circles li.fragment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: 400;
+  color: var(--bs-dark);
+  border: 0.4em solid var(--bs-primary);
+  list-style: none;
+  padding: 1vmin;
+  font-size: 5vmin;
+  width: 22vmin;
+  height: 22vmin;
+  text-align: center;
+  line-height: 100%;
+  margin: 0.5em;
+  opacity: 0.5 !important;
+}
+
+.reveal-viewport.layout-circles li.current-fragment {
+  opacity: 1 !important;
+}
+
+/*********************************************
+ * Layout Codelist
+ *********************************************/
+
+.reveal-viewport.layout-code-list ul li,
+.reveal-viewport.layout-code-list ol li {
+  margin-top: 0.5em;
+  line-height: 120%;
+  font-weight: 700;
+}
+
+.reveal-viewport.layout-code-list ul ul,
+.reveal-viewport.layout-code-list ol ol {
+  margin-top: 0.5em;
+  font-size: 1em;
+}
+
+.reveal-viewport.layout-code-list ul ul code,
+.reveal-viewport.layout-code-list ol ol code {
+  font-weight: 600 !important;
+}
+
+.reveal-viewport.layout-code-list ul li ul li:nth-child(1) code {
+  background-color: var(--bs-success);
+  color: var(--bs-light);
+  font-weight: 200;
+}
+.reveal-viewport.layout-code-list ul li ul li:nth-child(2) code {
+  background-color: var(--bs-danger);
+  color: var(--bs-light);
+  font-weight: 200;
+}
+.reveal-viewport.layout-code-list ul li ul li:nth-child(3) code {
+  background-color: var(--bs-primary);
+  color: var(--bs-light);
+  font-weight: 200;
+}
+.reveal-viewport.layout-code-list ul li ul li:nth-child(4) code {
+  background-color: var(--bs-warning);
+  color: var(--bs-light);
+  font-weight: 200;
+  color: var(--bs-dark) !important;
+}
+.reveal-viewport.layout-code-list ul li ul li:nth-child(5) code {
+  background-color: var(--bs-info);
+  color: var(--bs-light);
+  font-weight: 200;
+}
+
+/*********************************************
+ * Bootstrap Adjustments
+ *********************************************/
+
+/*********************************************
+ * Bootstrap Cards
+ *********************************************/
+
+.reveal .card {
+  font-size: 0.8em;
+  letter-spacing: 0.01em;
+  margin-top: 1em;
+}
+
+.reveal .card .card-title {
+  font-weight: 600;
+}
+
+.reveal .card p {
+  margin: 0;
+  margin-top: 0.1em;
+  line-height: 110%;
+  font-size: 0.6em;
+}
+.reveal .card .btn {
+  margin-top: 3em;
+}
+
+/*********************************************
+ * Bootstrap List Group
+ *********************************************/
+
+.reveal-viewport .list-group {
+  font-size: 0.7em;
+  letter-spacing: 0.01em;
+}
+
+.reveal .list-group .list-group-item {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.reveal .list-group .list-group-item i {
+  margin: 0;
+  padding: 0;
+  margin-right: 0.5em;
+}
+
+.reveal .list-group .current-fragment {
+  background-color: var(--bs-primary);
+  color: var(--bs-white);
+  font-weight: 600;
+}
+
+/*********************************************
+ * Bootstrap Alerts
+ *********************************************/
+
+.reveal .alert {
+  width: auto;
+  font-size: 0.7em;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  line-height: 110%;
+}
+
+.reveal .alert .alert-heading {
+  font-weight: 600;
+}

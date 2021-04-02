@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "alias": ["rayveal.tech"],
+  "builds": [
+    {
+      "src": "./docs/**/*.*",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [{ "src": "/(.*)", "dest": "docs/$1" }]
+}
