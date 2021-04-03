@@ -85,6 +85,52 @@ including CI/CD, and combine actions in a completely customized workflow. </p>
     <body><script src='https://gist.github.com/adilshehzad786/c84e7d4807b87c72a3d0f33ff47e7999.js'></script>
     </body>">
 ---
+## Navigating Workflow 
+---
+
+<!-- .slide: data-state="layout-circles" -->
+
+# Github Events
+
+- name
+- on
+- env
+- jobs
+- steps
+
+---
+# name
+
+<iframe 
+    width="100%"
+    height="350"    
+    src="data:text/html;charset=utf-8,
+    <head><base target='_blank' /></head>
+    <body><script src='https://gist.github.com/nashmaniac/4b8d7b563c346b0ee09dd65bb959ebbf.js'></script>
+    </body>">
+---
+# on
+
+<iframe 
+    width="100%"
+    height="350"    
+    src="data:text/html;charset=utf-8,
+    <head><base target='_blank' /></head>
+    <body><script src='https://gist.github.com/nashmaniac/55e32caa36c3e43f65bc353363c7d7ac.js'></script>
+    </body>">
+---
+
+# env
+
+<iframe 
+    width="100%"
+    height="350"    
+    src="data:text/html;charset=utf-8,
+    <head><base target='_blank' /></head>
+    <body><script src='https://gist.github.com/nashmaniac/38e5026294074ca69f536bd168c4f959.js'></script>
+    </body>">
+---
+
 # Persistent Toolbar Navigation
 
 The persistent navigation bar at the bottom is on every page. It will disappear after 5 seconds. You can also toggle it by hitting the `t` key. Look for the following code on `index.html`
