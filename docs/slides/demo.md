@@ -26,20 +26,9 @@
 
 - GitHub Campus Expert  <a class="btn btn-success btn-lg text-white fab fa-github-alt" href="https://github.com/planetoftheweb"> </a>
 - GitHub Streamer at GitHub <a class="btn btn-success btn-lg text-white fab fa-github-alt" href="https://github.com/planetoftheweb"> </a>
-- Responsive fonts
+- Software Developer at Grey Software CA
 
 <a class="btn btn-danger btn-lg text-white fab fa fa-tree" href="https://codepen.io/planetoftheweb/pen/oJOwYb"></a> <a class="btn btn-primary btn-lg text-white fab fa-linkedin-in" href="https://www.linkedin.com/learning/instructors/ray-villalobos"></a> <a class="btn btn-success btn-lg text-white fab fa-github-alt" href="https://github.com/planetoftheweb"></a>
-
----
-
-<!-- .slide: data-state="layout-title" data-transition="zoom" class="bg-dark"-->
-
-# What are GitHub Actions ?
-
-<p>Automate, customize, and execute your software development 
-workflows right in your repository with GitHub Actions. 
-You can discover, create, and share actions to perform any job you'd like,
-including CI/CD, and combine actions in a completely customized workflow. </p>
 
 ---
 
@@ -72,6 +61,30 @@ GitHub flow is a lightweight, branch-based workflow that supports teams and proj
 
 ---
 
+<!-- .slide: data-state="layout-title" data-transition="zoom" class="bg-dark"-->
+
+# What are GitHub Actions ?
+
+<p>Automate, customize, and execute your software development 
+workflows right in your repository with GitHub Actions. 
+You can discover, create, and share actions to perform any job you'd like,
+including CI/CD, and combine actions in a completely customized workflow. </p>
+
+---
+
+# Video here 
+
+---
+# Demo : Hello World GitHub Action Workflow
+
+<iframe 
+    width="100%"
+    height="350"    
+    src="data:text/html;charset=utf-8,
+    <head><base target='_blank' /></head>
+    <body><script src='https://gist.github.com/adilshehzad786/c84e7d4807b87c72a3d0f33ff47e7999.js'></script>
+    </body>">
+---
 # Persistent Toolbar Navigation
 
 The persistent navigation bar at the bottom is on every page. It will disappear after 5 seconds. You can also toggle it by hitting the `t` key. Look for the following code on `index.html`
