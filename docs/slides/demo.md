@@ -131,6 +131,17 @@ including CI/CD, and combine actions in a completely customized workflow. </p>
     </body>">
 ---
 
+# jobs
+
+<iframe 
+    width="100%"
+    height="350"    
+    src="data:text/html;charset=utf-8,
+    <head><base target='_blank' /></head>
+    <body><script src='https://gist.github.com/nashmaniac/38e5026294074ca69f536bd168c4f959.js'></script>
+    </body>">
+---
+
 # Persistent Toolbar Navigation
 
 The persistent navigation bar at the bottom is on every page. It will disappear after 5 seconds. You can also toggle it by hitting the `t` key. Look for the following code on `index.html`
