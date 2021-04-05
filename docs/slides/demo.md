@@ -138,12 +138,96 @@ including CI/CD, and combine actions in a completely customized workflow. </p>
     height="350"    
     src="data:text/html;charset=utf-8,
     <head><base target='_blank' /></head>
-    <body><script src='https://gist.github.com/nashmaniac/38e5026294074ca69f536bd168c4f959.js'></script>
+    <body><script src='https://gist.github.com/nashmaniac/3772cebeec07b3b8ee3f4b82071d17bd.js'></script>
     </body>">
+
+
 ---
 
-# Persistent Toolbar Navigation
+---
 
+# steps
+
+<iframe 
+    width="100%"
+    height="350"    
+    src="data:text/html;charset=utf-8,
+    <head><base target='_blank' /></head>
+    <body><script src='https://gist.github.com/nashmaniac/0b2d2884bfde8282167d4ff53646a0dd.js'></script>
+    </body>">
+
+    
+---
+
+# GitHub Secrets
+
+<iframe 
+    width="100%"
+    height="350"    
+    src="data:text/html;charset=utf-8,
+    <head><base target='_blank' /></head>
+    <body><script src='https://gist.github.com/adilshehzad786/969ffbe7fed0ea06d5519fb426534f2e.js'></script>
+    </body>">
+---
+## Demo : GitHub Events & GitHub Secrets
+
+---
+
+# Overview # 1
+
+<!-- .slide: data-state="layout-quote" class="bg-dark" -->
+
+<blockquote class="animate__animated animate__backInDown">
+ <i class="fa fa-quote-left text-secondary " aria-hidden="true"></i>
+ Actions are your reusable units of code 
+ <i class="fa fa-quote-right text-secondary" aria-hidden="true"></i> 
+</blockquote>
+
+---
+# Overview # 2
+
+<!-- .slide: data-state="layout-quote" class="bg-dark" -->
+
+<blockquote class="animate__animated animate__backInDown">
+ <i class="fa fa-quote-left text-secondary " aria-hidden="true"></i>
+ You can use Action from the marketplace or create your own 
+ <i class="fa fa-quote-right text-secondary" aria-hidden="true"></i> 
+</blockquote>
+
+---
+# Overview # 3
+
+<!-- .slide: data-state="layout-quote" class="bg-dark" -->
+
+<blockquote class="animate__animated animate__backInDown">
+ <i class="fa fa-quote-left text-secondary " aria-hidden="true"></i>
+ Create custom CI workflow that automates building and testing our code
+ <i class="fa fa-quote-right text-secondary" aria-hidden="true"></i> 
+</blockquote>
+
+---
+
+# Overview # 4
+
+<!-- .slide: data-state="layout-quote" class="bg-dark" -->
+
+<blockquote class="animate__animated animate__backInDown">
+ <i class="fa fa-quote-left text-secondary " aria-hidden="true"></i>
+ Create custom CD workflow to automatically deploy our 
+ code to any cloud self-hosted service or platform from our repo
+ <i class="fa fa-quote-right text-secondary" aria-hidden="true"></i> 
+</blockquote>
+
+---
+
+# Become a GitHub Actions Hero
+
+<a class="btn btn-success btn-lg text-white fab fa-github-alt" href="https://github-actions-hero.now.sh/" target="_blank"> </a>
+
+
+
+---
+# Demo 
 The persistent navigation bar at the bottom is on every page. It will disappear after 5 seconds. You can also toggle it by hitting the `t` key. Look for the following code on `index.html`
 
 ```html
