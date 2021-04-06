@@ -227,7 +227,25 @@ including CI/CD, and combine actions in a completely customized workflow. </p>
 
 
 ---
-# Demo 
+
+# What is Continuous integration
+
+<p>Continuous Integration is a development practice where developers 
+integrate code into a shared repository frequently where each integration 
+is verified by an automated build and automated test. </p>
+
+---
+# Demo : Continuous integration
+
+<iframe 
+    width="100%"
+    height="350"    
+    src="data:text/html;charset=utf-8,
+    <head><base target='_blank' /></head>
+    <body><script src='https://gist.github.com/adilshehzad786/55132e4cb5ee879921333edc024de717.js'></script>
+    </body>">
+
+---
 The persistent navigation bar at the bottom is on every page. It will disappear after 5 seconds. You can also toggle it by hitting the `t` key. Look for the following code on `index.html`
 
 ```html
