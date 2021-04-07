@@ -273,6 +273,30 @@ is verified by an automated build and automated test. </p>
 # Branch Protection on GitHub 
 
 ---
+# Project : Creating MEME Using GitHub Actions 
+
+<iframe 
+    width="100%"
+    height="350"    
+    src="data:text/html;charset=utf-8,
+    <head><base target='_blank' /></head>
+    <body><script src='https://gist.github.com/adilshehzad786/3bd76db40b5c3e700fd80d7925d7ed3d.js'></script>
+    </body>">
+
+---
+
+# Command for Giphy 
+
+<!-- .slide: data-state="layout-quote" class="bg-dark" -->
+<blockquote class="animate__animated animate__backInDown">
+ <i class="fa fa-quote-left text-secondary " aria-hidden="true"></i>
+/giphy its so cool
+ <i class="fa fa-quote-right text-secondary" aria-hidden="true"></i> 
+</blockquote>
+
+
+
+---
 The persistent navigation bar at the bottom is on every page. It will disappear after 5 seconds. You can also toggle it by hitting the `t` key. Look for the following code on `index.html`
 
 ```html
