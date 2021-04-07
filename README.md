@@ -1,4 +1,4 @@
-# RayVeal
+# Getting Started with GitHub Actions
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/adilshehzad786/Getting-Started-with-GitHub-Actions?branch=main&token=d8548b37172a69e20ed8b0bb885dcb66328dff30)](https://bettercodehub.com/)
 
