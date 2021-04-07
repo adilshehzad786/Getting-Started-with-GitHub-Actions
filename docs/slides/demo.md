@@ -246,6 +246,33 @@ is verified by an automated build and automated test. </p>
     </body>">
 
 ---
+
+## Multiple Jobs 
+
+<iframe 
+    width="100%"
+    height="350"    
+    src="data:text/html;charset=utf-8,
+    <head><base target='_blank' /></head>
+    <body><script src='https://gist.github.com/adilshehzad786/e72cf0df261dbc64d6ae481983157ce3.js'></script>
+    </body>">
+
+---
+# Pull Request GitHub Action 
+
+<iframe 
+    width="100%"
+    height="350"    
+    src="data:text/html;charset=utf-8,
+    <head><base target='_blank' /></head>
+    <body><script src='https://gist.github.com/adilshehzad786/25cd7431cf3e559376dc96b685704f69.js'></script>
+    </body>">
+
+
+---
+# Branch Protection on GitHub 
+
+---
 The persistent navigation bar at the bottom is on every page. It will disappear after 5 seconds. You can also toggle it by hitting the `t` key. Look for the following code on `index.html`
 
 ```html
