@@ -6,7 +6,6 @@ Rayveal is an opinionated version of the awesome [reveal.js](https://github.com/
 
 This, plus the pre-installation of convenient plugins and libraries make it easier to create your presentations quickly using markdown. That helps me focus on writing and not on laying out presentations.
 
-You can see the demo at [rayveal.tech](http://rayveal.tech).
 
 ## Instructions
 
