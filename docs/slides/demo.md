@@ -9,7 +9,7 @@
 <p>Learn how to automate, customize, and execute your software development workflows right in your GitHub repository with GitHub Actions.</p>
 <p class="no-fragment btn-group" role="group" aria-label="Basic example">
 <a class="btn btn-lg btn-warning text-dark" href="https://github.com/adilshehzad786/Getting-Started-with-GitHub-Actions" target="_blank">Github Repo</a>
-<a class="btn btn-lg btn-light text-dark" href="#" target="_blank">Demo</a>
+<a class="btn btn-lg btn-light text-dark" href="https://githubactionsbyadil.netlify.app/" target="_blank">Demo</a>
 </p>
 
 <p class="no-fragment small mt-4"><span class="badge bg-light text-dark mr-1 ml-2">&larr; &rarr;</span> navigate
@@ -24,11 +24,11 @@
 
 </small>
 
-- GitHub Campus Expert  <a class="btn btn-success btn-lg text-white fab fa-github-alt" href="https://github.com/planetoftheweb"> </a>
-- GitHub Streamer at GitHub <a class="btn btn-success btn-lg text-white fab fa-github-alt" href="https://github.com/planetoftheweb"> </a>
+- GitHub Campus Expert  <a class="btn btn-success btn-lg text-white fab fa-github-alt" href="https://linktr.ee/adilshehzad786"> </a>
+- GitHub Streamer at GitHub <a class="btn btn-success btn-lg text-white fab fa-github-alt" href="https://linktr.ee/adilshehzad786"> </a>
 - Software Developer at Grey Software CA
 
-<a class="btn btn-danger btn-lg text-white fab fa fa-tree" href="https://codepen.io/planetoftheweb/pen/oJOwYb"></a> <a class="btn btn-primary btn-lg text-white fab fa-linkedin-in" href="https://www.linkedin.com/learning/instructors/ray-villalobos"></a> <a class="btn btn-success btn-lg text-white fab fa-github-alt" href="https://github.com/planetoftheweb"></a>
+<a class="btn btn-danger btn-lg text-white fab fa fa-tree" href="https://linktr.ee/adilshehzad786"></a> <a class="btn btn-primary btn-lg text-white fab fa-linkedin-in" href="https://www.linkedin.com/in/adilshehzad7/"></a> <a class="btn btn-success btn-lg text-white fab fa-github-alt" href="https://github.com/adilshehzad786"></a>
 
 ---
 
@@ -72,7 +72,9 @@ including CI/CD, and combine actions in a completely customized workflow. </p>
 
 ---
 
-# Video here 
+# GitHub Actions Workflow
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cP0I9w2coGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 # Demo : Hello World GitHub Action Workflow
@@ -306,6 +308,6 @@ is verified by an automated build and automated test. </p>
 
 # Feedback
 
-<a class="btn btn-info btn-lg text-white fas fa-comments" href="https://lab.github.com/" target="_blank"> FeedBack </a>
+<a class="btn btn-info btn-lg text-white fas fa-comments" href="https://linktr.ee/adilshehzad786" target="_blank"> FeedBack </a>
 
 ---
