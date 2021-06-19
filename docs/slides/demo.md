@@ -87,6 +87,17 @@ including CI/CD, and combine actions in a completely customized workflow. </p>
     <body><script src='https://gist.github.com/adilshehzad786/c84e7d4807b87c72a3d0f33ff47e7999.js'></script>
     </body>">
 ---
+# YAML
+
+<iframe 
+    width="100%"
+    height="350"    
+    src="data:text/html;charset=utf-8,
+    <head><base target='_blank' /></head>
+    <body><script src='https://gist.github.com/jonschlinkert/5170877.js'></script>
+    </body>">
+---
+
 ## Navigating Workflow 
 ---
 
