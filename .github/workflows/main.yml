@@ -1,0 +1,33 @@
+name: CI
+
+on:
+ push: 
+  branches: [main]
+ pull_request :
+  branches: [main]
+ 
+ issues: 
+  branches: [main]
+
+jobs:
+
+ build:
+  runs-on: ubuntu-latest
+ 
+  steps:
+  
+  - uses : actions@checkout@v2
+  
+  - name : Runing a single code
+    run: echo Hello World
+  - name: Runing a Multiple Code
+  
+    run : |
+   
+       echo Add another line to the coe
+       echo test and deploy the project
+  
+  
+ 
+
+  
