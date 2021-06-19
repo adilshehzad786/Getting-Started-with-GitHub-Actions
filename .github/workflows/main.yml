@@ -3,7 +3,7 @@ on : [workflow_dispatch]
 jobs: 
  custom-js-action-job:
  
-  runs-on : ubuntu-machine
+  runs-on : ubuntu-latest
   
   name : Custom JS gitHub Action
   
