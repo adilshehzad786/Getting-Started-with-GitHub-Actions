@@ -15,7 +15,7 @@ jobs:
        name-of-you : 'Adil'
     
     - name : Output of the TimeStamp
-      run : echo "The time was ${{steps.myjsaction.outputs.time}}"
+      run : echo "The time was project is ${{steps.myjsaction.outputs.time}}"
      
      
     
